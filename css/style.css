@@ -2,3 +2,56 @@
 * {
    max-width: 100%;
 }
+
+/* HEADER */
+header {
+    height: 70px;
+    background-color: rgba(44, 62, 80, 1);
+    color: white;
+}
+
+/* MAIN */
+.jumbotron {
+    background-color: rgba(26, 188, 156, 1);
+    text-align: center;
+    color: white;
+}
+
+.jumbotron img {
+    width: 50%;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.about {
+    background-color: rgba(26, 188, 156, 1);
+    color: white;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.ms_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: rgba(58, 84, 109, 1);
+}
+
+.footer-2 {
+    background-color: rgba(44, 62, 80, 1);
+}
