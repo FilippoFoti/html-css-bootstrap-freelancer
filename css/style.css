@@ -10,6 +10,19 @@ header {
     color: white;
 }
 
+header .ms_menu-list {
+    list-style-type: none;
+}
+
+header .ms_menu-list li {
+    margin-left: 1rem;
+    /* font-size: 0.7rem; */
+}
+
+header .ms_menu-list li a {
+    text-decoration: none;
+}
+
 /* MAIN */
 .jumbotron {
     background-color: rgba(26, 188, 156, 1);
