@@ -41,7 +41,7 @@ header span {
 
 /* MAIN */
 
-/* JUMBOTRON */
+/* SECTION-JUMBOTRON */
 
 .jumbotron {
     background-color: rgba(26, 188, 156, 1);
@@ -70,7 +70,7 @@ header span {
     font-size: 1.3rem;
 }
 
-/* PORTFOLIO */
+/* SECTION-PORTFOLIO */
 
 .portfolio h2 {
     font-size: 1.7rem;
@@ -93,7 +93,7 @@ header span {
     margin: 15px 0;
 }
 
-/* ABOUT */
+/* SECTION-ABOUT */
 
 .about {
     background-color: rgba(26, 188, 156, 1);
@@ -125,7 +125,7 @@ header span {
    border: 2px solid white;
 }
 
-/* CONTACT */
+/* SECTION-CONTACT */
 
 .contact .black {
     border: 2px solid black;
@@ -142,6 +142,7 @@ header span {
     border-left: 0;
     border-right: 0;
     border-radius: 0;
+    border-bottom: 2px solid rgba(213, 213, 213, 1);
 }
 
 .form-control:focus {
@@ -153,29 +154,50 @@ header span {
     height: 170px;
 }
 
-.contact .btn:hover {
-    color: rgba(26, 188, 156, 1);
-    background-color: white;
-    border-color: rgba(26, 188, 156, 1);
-}
-
 .contact .btn-primary {
    color: white;
    border: 2px solid rgba(26, 188, 156, 1);
    background-color: rgba(26, 188, 156, 1);
 }
 
+.contact .btn:hover {
+    color: rgba(26, 188, 156, 1);
+    background-color: white;
+    border-color: rgba(26, 188, 156, 1);
+}
+
 /* FOOTER */
 
 footer {
-    text-align: center;
     color: white;
 }
 
-.footer {
+.footer-t {
     background-color: rgba(58, 84, 109, 1);
 }
 
-.footer-2 {
+.footer-t h2 {
+    font-size: 1.3rem;
+}
+
+.footer-t p {
+    font-size: 1rem;
+}
+
+/* .footer-t span {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+} */
+
+
+
+.footer-t span {
+    border-color: white;
+}
+
+.footer-b {
     background-color: rgba(44, 62, 80, 1);
 }
