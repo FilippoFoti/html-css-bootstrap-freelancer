@@ -65,7 +65,7 @@
 <!-- /JUMBOTRON -->
 
 <!-- PORTFOLIO -->
-        <section class="portfolio text-center">
+        <section class="portfolio text-center mb-5">
             <div class="container">
                 <h2 class="pt-5 pb-4">PORTFOLIO</h2>
                 <div class="star d-flex align-items-center justify-content-center mb-3">
@@ -128,21 +128,32 @@
             <div class="my_container">
                 <div class="container-fluid">
                     <div class="contact-text">
-                        <h2>CONTACT ME</h2>
-                        <hr>
-                        <h3>Name</h3>
-                        <hr>
-                        <h3>Email Address</h3>
-                        <hr>
-                        <h3>Phone Number</h3>
-                        <hr>
-                        <h3>Message</h3>
+                        <h2 class="text-center pt-5 pb-4">CONTACT ME</h2>
+                        <div class="star d-flex align-items-center justify-content-center mb-3">
+                            <div class="black"></div>
+                            <i class="fa-solid fa-star px-2"></i>
+                            <div class="black"></div>
+                        </div>
+                        <form action="">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingText" placeholder="Name">
+                                <label for="floatingText">Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingNumber" placeholder="">
+                                <label for="floatingNumber">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" id="floatingTextarea2" placeholder="Leave a comment here"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div>
+                            <button class="btn btn-primary mt-3 mb-4" type="submit">Send</button>
+                        </form>
                     </div>
-                    <div class="contact-text">
-                        <hr>
-                        <button>Send</button>
-                    </div>
-
                 </div>
             </div>
         </section>

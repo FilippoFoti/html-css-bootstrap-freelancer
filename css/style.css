@@ -127,9 +127,45 @@ header span {
 
 /* CONTACT */
 
-.contact h2 {
-    text-align: center;
+.contact .black {
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 90px;
 }
+
+.contact .star .black {
+    width: 50px;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: unset;
+    box-shadow: none;
+}
+
+#floatingTextarea2 {
+    height: 170px;
+}
+
+.contact .btn:hover {
+    color: rgba(26, 188, 156, 1);
+    background-color: white;
+    border-color: rgba(26, 188, 156, 1);
+}
+
+.contact .btn-primary {
+   color: white;
+   border: 2px solid rgba(26, 188, 156, 1);
+   background-color: rgba(26, 188, 156, 1);
+}
+
+/* FOOTER */
 
 footer {
     text-align: center;
