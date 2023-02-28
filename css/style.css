@@ -184,18 +184,24 @@ footer {
     font-size: 1rem;
 }
 
-/* .footer-t span {
+.footer-t .my_list-footer {
+    list-style-type: none;
+}
+
+.footer-t .my_list-footer li {
     border: 1px solid white;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-} */
+    height: 50px;
+    width: 50px;
+}
 
+.footer-t .my_list-footer li a {
+    text-decoration: none;
+    color: white;
+}
 
-
-.footer-t span {
-    border-color: white;
+.footer-t .green {
+    color: rgba(26, 188, 156, 1);
 }
 
 .footer-b {
