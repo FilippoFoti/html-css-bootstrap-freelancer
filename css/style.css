@@ -7,6 +7,10 @@ body {
     font-weight: bold;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -15,21 +19,14 @@ header {
 }
 
 header h2 {
-    margin: 0;
     font-size: 1.4rem;
-    font-weight: bold;
 }
 
-header .ms_menu-list {
+header .my_menu-list {
     list-style-type: none;
-    margin: 0;
 }
 
-header .ms_menu-list li {
-    margin-left: 1rem;
-}
-
-header .ms_menu-list li a {
+header .my_menu-list li a {
     text-decoration: none;
     font-size: 0.8rem;
     color: white;
@@ -42,63 +39,42 @@ header span {
     padding: 1px 10px;
 }
 
-header span:hover {
-    border: 2px solid white;
-    color: white;
-}
-
 /* MAIN */
 
 /* JUMBOTRON */
 
 .jumbotron {
     background-color: rgba(26, 188, 156, 1);
-    text-align: center;
     color: white;
 }
 
 .jumbotron img {
     width: 250px;
-    margin: 20px 0;
 }
 
 .jumbotron h1 {
     font-size: 2.5rem;
-    font-weight: bold;
-    padding-bottom: 15px;
 }
 
-.jumbotron .white {
+.white {
     border: 2px solid white;
     border-radius: 50px;
     width: 90px;
 }
 
-.jumbotron .star i {
+.star i {
     font-size: 1.7rem;
-    padding: 0 10px;
 }
 
 .jumbotron h2 {
     font-size: 1.3rem;
-    padding: 20px 0 40px 0;
 }
 
 /* PORTFOLIO */
 
-.portfolio {
-    /* text-align: center; */
-}
-
 .portfolio h2 {
     font-size: 1.7rem;
     color: black;
-    font-weight: bold;
-    padding: 30px 0 20px 0;
-}
-
-.portfolio .star {
-    margin-bottom: 15px;
 }
 
 .portfolio .black {
@@ -109,7 +85,6 @@ header span:hover {
 
 .portfolio .star i {
     font-size: 1.7rem;
-    padding: 0 10px;
     color: black;
 }
 
@@ -118,7 +93,6 @@ header span:hover {
     margin: 15px 0;
 }
 
-
 /* ABOUT */
 
 .about {
@@ -126,14 +100,32 @@ header span:hover {
     color: white;
 }
 
-.about h2 {
-    text-align: center;
-}
-
-.ms_container {
+.my_container {
     width: 60%;
     margin: 0 auto;
 }
+
+.about h2 {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.about .star .white {
+    width: 50px;
+}
+
+.about .btn:hover {
+    color: rgba(26, 188, 156, 1);
+    background-color: white;
+    border-color: rgba(26, 188, 156, 1);
+}
+
+.about .btn-outline-primary {
+   color: white;
+   border: 2px solid white;
+}
+
+/* CONTACT */
 
 .contact h2 {
     text-align: center;
