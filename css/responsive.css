@@ -1,0 +1,65 @@
+/* RESPONSIVE */
+
+/* TABLE MD */
+@media screen and (min-width: 768px) {
+    
+    /* SECTION-JUMBOTRON */
+    .jumbotron img {
+        width: 200px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.9rem;
+    }
+
+    .white {
+        width: 110px;
+    }
+
+    /* SECTION-PORTFOLIO */ 
+    .portfolio h2 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio .black {
+        width: 110px;
+    }
+
+    /* SECTION-ABOUT */
+    .about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about .star .white {
+        width: 90px;
+    }
+
+    /* SECTION-CONTACT */
+    .contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact .star .black {
+        width: 90px;
+    }
+
+    /* FOOTER */
+    .footer-t h2 {
+        font-size: 1.1rem;
+    }
+
+    .footer-t p {
+        font-size: 0.9rem;
+    }
+
+    .footer-t .my_list-footer li {
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+    .footer-b p {
+        font-size: 0.7rem;
+    }
+}

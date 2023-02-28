@@ -127,6 +127,10 @@ header span {
 
 /* SECTION-CONTACT */
 
+.contact h2 {
+    font-size: 1.7rem;
+}
+
 .contact .black {
     border: 2px solid black;
     border-radius: 50px;
@@ -206,4 +210,8 @@ footer {
 
 .footer-b {
     background-color: rgba(44, 62, 80, 1);
+}
+
+.footer-b p {
+    font-size: 0.9rem;
 }
