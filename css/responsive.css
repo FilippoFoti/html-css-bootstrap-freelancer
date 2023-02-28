@@ -57,9 +57,34 @@
         width: 40px;
     }
 
-
-
     .footer-b p {
         font-size: 0.7rem;
+    }
+}
+
+/* DESKTOP LG */
+@media screen and (min-width: 992px) {
+    /* SECTION-JUMBOTRON */
+    .jumbotron img {
+        width: 180px;
+    }
+
+    .white {
+        width: 130px;
+    }
+
+    /* SECTION-PORTFOLIO */
+    .portfolio .black {
+        width: 130px;
+    }
+
+    /* SECTION-ABOUT */
+    .about .star .white {
+        width: 110px;
+    }
+
+    /* SECTION-CONTACT */
+    .contact .star .black {
+        width: 110px;
     }
 }
